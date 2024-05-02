@@ -1,0 +1,52 @@
+a {
+    text-decoration: none;
+  }
+  .flex {
+    display: flex;
+  }
+  .alignCenter {
+    align-items: center;
+  }
+  .justifyCenter {
+    justify-content: center;
+  }
+  .justifyBetween {
+    justify-content: space-between;
+  }
+  ul {
+    list-style-type: none;
+  }
+  button,
+  input {
+    border: none;
+    font-family: inherit;
+  }
+  
+  .filterbg {
+    background: var(--filter-bg);
+    backdrop-filter: blur(5px);
+    border: 1px solid var(--border-beta);
+    box-shadow: var(--shadow-beta);
+  }
+  
+  img {
+    user-select: none;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary-alpha);
+    border-radius: var(--radius-round);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-beta);
+  }
+  
+  ::selection {
+    background-color: var(--primary-gama);
+    color: var(--black-beta);
+  }
