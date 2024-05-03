@@ -337,6 +337,7 @@
   }
   
   .project__image img {
+    height: 60vh;
     width: 100%;
     border-radius: var(--radius-gama);
     transition: transform 6s ease-in-out;
